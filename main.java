@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
         // Test Array-based Stack
         ArrayStack arrayStack = new ArrayStack(5);

@@ -1,0 +1,30 @@
+1. What are the advantages and disadvantages of implementing a stack using arrays compared to linked lists?  
+
+        Array-based Stack:
+
+            Advantage: Simple to implement, easy access to elements.
+            Disadvantage: Size has a limited capacity.
+
+        Linked List-based Stack:
+            Advantages: Capacity is higher, so there is no need to worry for the Size
+            Disadvantages: Takes a bit more memory because each item has to store a reference.
+
+2. What happens if you try to push an element into a full array-based stack? How can you handle this situation?  
+        Trying to push into a full array will cause an error called StackOverflowError. To fix it you can show a message saying "the array is full" or increase the array's size
+
+3. Which implementation is more efficient in terms of time complexity for push and pop operations? Explain.  
+
+4. What is the output of the main method in the test class?  
+        Array-based stack:
+            Top element: 30  
+            Size: 3  
+            Popped element: 30  
+            Is stack empty? false  
+
+        Linked List-based stack:
+            Top element: 300  
+            Size: 3  
+            Popped element: 300  
+            Is stack empty? false  
+
+

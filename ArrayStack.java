@@ -37,11 +37,12 @@ public class ArrayStack implements myStack {
 
     @Override
     public boolean isEmpty() {
-        // TODO
+       return top == -1;
+
     }
 
     @Override
     public int size() {
-        // TODO
+        return top + 1;
     }
 }
